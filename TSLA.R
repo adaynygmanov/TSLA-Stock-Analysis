@@ -3,7 +3,12 @@ library (quantmod)
 
 ## Load data
 loadSymbols(c("TSLA"))
-head (TSLA)
+
+# View data
+only_2020_values<-TSLA ['2020']
+head(only_2020_values);tail(only_2020_values)
+data_from_2017_onwards<-TSLA ['2017::']
+head(data_from_2017_onwards);tail(data_from_2017_onwards)
 
 ## Build charts with trends
 chartSeries(TSLA) 
@@ -18,12 +23,6 @@ addRSI() # Relative Strength Index
 
 seriesHi(TSLA) #highest prices
 seriesLo(TSLA) #lowest prices
-
-## Optional scripts
-only_2020_values<-TSLA ['2020']
-head(only_2020_values);tail(only_2020_values)
-data_from_2017_onwards<-TSLA ['2017::']
-head(data_from_2017_onwards);tail(data_from_2017_onwards)
 
 ## Analysis of Returns
 returns_by_day<-dailyReturn(TSLA)
