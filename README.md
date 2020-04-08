@@ -2,6 +2,7 @@
 Quick stock analysis in R using Quantmod package, TSLA example (scripts and charts)
 
 TSLA stock data for 2020
+
 ![image](https://github.com/adaynygmanov/TSLA-Stock-Analysis/blob/master/Charts/View%20data%202020.png)
 
 TSLA stock chart with the following indicatros and trends: Moving Average, Moving Average convergence/divergence, BollingerBands, Commodity Channel Index, Average Directional Movement Index, Chaikin Money Flow andRelative Strength Index
