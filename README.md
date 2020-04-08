@@ -1,5 +1,5 @@
 # TSLA-Stock-Analysis
-Quick stock analysis in R using Quantmod package, TSLA example (scripts and charts)
+Quick stock analysis in R using Quantmod package, TSLA example (scripts and charts).
 
 Short definition of the Quantmod package: “The Quantmod package for R is designed to assist the quantitative trader in the development, testing, and deployment of statistically based trading models.”
 
