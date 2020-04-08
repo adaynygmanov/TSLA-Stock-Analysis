@@ -3,25 +3,25 @@ Quick stock analysis in R using Quantmod package, TSLA example (scripts and char
 
 Short definition of the Quantmod package: “The Quantmod package for R is designed to assist the quantitative trader in the development, testing, and deployment of statistically based trading models.”
 
-1 step: Downloading data from Yahoo Finance
+Step 1: Downloading data from Yahoo Finance
 
 TSLA stock data for 2020
 
 ![image](https://github.com/adaynygmanov/TSLA-Stock-Analysis/blob/master/Charts/View%20data%202020.png)
 
-2 step: Visualization of the charts
+Step 2: Visualization of the charts
 
 Below is the TSLA stock chart with the following indexes and trend estimators: Moving Average, Moving Average convergence/divergence, BollingerBands, Commodity Channel Index, Average Directional Movement Index, Chaikin Money Flow andRelative Strength Index
 
 ![image](https://github.com/adaynygmanov/TSLA-Stock-Analysis/blob/master/Charts/Rplot.png)
 
-Step 4: Identifying highest and lowest prices
+Step 3: Identifying highest and lowest prices
 
 Highest and lowest prices during 10 years period
 
 ![image](https://github.com/adaynygmanov/TSLA-Stock-Analysis/blob/master/Charts/Highest%20and%20lowest%20prices.png)
 
-Step 3: Calculation of the returns:
+Step 4: Calculation of the returns:
 
 Daily returns
 
